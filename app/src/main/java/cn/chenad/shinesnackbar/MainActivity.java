@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 final Snackbar snackbar = Snackbar.make(show, "你有女朋友吗", Snackbar.LENGTH_INDEFINITE);
                 XSnackbar.addViewToSnackbar(snackbar, R.layout.snackbar_button);
                 XSnackbar.SetAction1(snackbar, R.id.no, new View.OnClickListener() {
+
                     @Override
                     public void onClick(View v) {
                         Snackbar.make(show, "....", Snackbar.LENGTH_LONG).show();
